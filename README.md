@@ -3,15 +3,20 @@
 
 
 ```bash
-Test-driven development (TDD):
+#Test-driven development (TDD):
 
 is a software development process relying on software requirements being 
-converted to test cases before software is fully developed, and tracking all software development by repeatedly testing the software against all test cases. This is as opposed to software being developed first and test cases created later. Programmers also apply the concept to improving and debugging legacy code developed with older techniques.
+converted to test cases before software is fully developed, and tracking 
+all software development by repeatedly testing the software against all 
+test cases. This is as opposed to software being developed first and test 
+cases created later. Programmers also apply the concept to improving and 
+debugging legacy code developed with older techniques.
 
 ```
 
 ```bash
 Process:
+
         1. Add a test
         2. Run all tests. The new test should fail for expected reasons
         3. Write the simplest code that passes the new test
